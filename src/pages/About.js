@@ -1,9 +1,15 @@
+import Header from "../components/Header/Header";
+import headerImage from "../assets/about.jpg";
+
 function About(){
   return(
-    <article>
-      <h1>This is About page</h1>
-      <p> Rem eum, officia veritatis ducimus qui voluptates esse molestiae labore fugiat facere. Voluptates, repudiandae dolore.</p>
-    </article>
+    <>
+    <Header
+      title="About Pottery."
+      image={headerImage}>
+   The definition of pottery, used by the ASTM International, is "all fired ceramic wares that contain clay when formed, except technical, structural, and refractory products. 
+    </Header>
+    </>
   );
 }
 export default About;

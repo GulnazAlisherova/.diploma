@@ -1,9 +1,15 @@
+import Header from "../components/Header/Header";
+import headerImage from "../assets/home.jpg";
+
 function Home(){
   return(
-    <article>
-      <h1>This is Home page</h1>
-      <p> Rem eum, officia veritatis ducimus qui voluptates esse molestiae labore fugiat facere. Voluptates, repudiandae dolore.</p>
-    </article>
+    <>
+    <Header
+      title="Welcome to our Pottery Studio!"
+      image={headerImage}>
+    Pottery is the process and the products of forming vessels and other objects with clay and other ceramic materials, which are fired at high temperatures to give them a hard and durable form.
+    </Header>
+    </>
   );
 }
 export default Home;
