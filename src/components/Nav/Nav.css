@@ -1,6 +1,6 @@
 .Nav {
-  background-color: rgb(241, 156, 96);
-  color: white;
+  background-color: rgba(233, 163, 113, 0.668);
+  color: black;
 }
 .Nav .container{
   display: flex;

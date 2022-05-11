@@ -9,6 +9,7 @@ import step6 from "../assets/step6.jpg"
 import step7 from "../assets/step7.jpg"
 import step8 from "../assets/step8.jpg"
 import step9 from "../assets/step9.jpg"
+
 function Process(){
   return(
     <>

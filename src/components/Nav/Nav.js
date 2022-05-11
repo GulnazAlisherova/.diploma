@@ -12,7 +12,7 @@ function Nav() {
           <NavItem url="/about">About</NavItem>
           <NavItem url="/products">Products</NavItem>
           <NavItem url="/contacts">Contacts</NavItem>
-          <NavItem url="/process">Process</NavItem>
+          {/* <NavItem url="/process">Process</NavItem> */}
         </ul>
       </div>
     </nav>
