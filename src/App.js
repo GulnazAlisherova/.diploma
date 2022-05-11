@@ -5,7 +5,6 @@ import Layout from "./components/Layout/Layout";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
-import Process from "./pages/Process";
 
 function App() {
   return (
@@ -17,7 +16,6 @@ function App() {
         <Route path="/about" element={<About />} />
         <Route path="/products" element={<Products />} />
         <Route path="/contacts" element={<Contacts />} />
-        <Route path="/process" element={<Process />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
       </Layout>

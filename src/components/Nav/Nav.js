@@ -1,21 +1,14 @@
-import Logo from "../ui/Logo/Logo";
-import "./Nav.css";
 import NavItem from "./NavItem/NavItem";
-  
+import classes from "./Nav.module.css";
 function Nav() {
   return (
-    <nav className="Nav">
-      <div className="container">
-        <Logo />
-        <ul>
+    <ul className={classes.Nav}>
           <NavItem url="/">Home</NavItem>
           <NavItem url="/about">About</NavItem>
           <NavItem url="/products">Products</NavItem>
           <NavItem url="/contacts">Contacts</NavItem>
-          {/* <NavItem url="/process">Process</NavItem> */}
-        </ul>
-      </div>
-    </nav>
+    </ul>
+    
   );
 }
 export default Nav;
