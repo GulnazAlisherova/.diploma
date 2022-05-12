@@ -5,6 +5,7 @@ import Layout from "./components/Layout/Layout";
 import NotFound from "./pages/NotFound";
 import Products from "./pages/Products";
 import About from "./pages/About";
+import Footer from "./components/Footer/Footer";
 
 function App() {
   return (
@@ -19,7 +20,7 @@ function App() {
         <Route path="*" element={<NotFound />} />
       </Routes>
       </Layout>
-
+      <Footer/>
     </div>
   );
 }

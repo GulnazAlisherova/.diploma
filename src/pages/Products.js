@@ -1,6 +1,6 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
-import headerImage from "../assets/products.jpg";
+import headerImage from "../assets/header.webp";
 import { getProducts } from "../data/products";
 import ProductList from "../components/ProductList/ProductList";
 

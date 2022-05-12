@@ -1,5 +1,7 @@
 .NavItem a {
   display: block;
+
+  font-weight: 500;
   padding: 1rem 1.5rem;
   color: black;
   font-size: 1.2rem;

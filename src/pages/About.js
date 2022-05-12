@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/about.jpg";
+import headerImage from "../assets/about.png";
 
 function About(){
   return(

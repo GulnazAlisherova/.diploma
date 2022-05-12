@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/home.jpg";
+import headerImage from "../assets/header.webp";
 
 function Home(){
   return(
