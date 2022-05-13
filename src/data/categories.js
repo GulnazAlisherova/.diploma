@@ -2,21 +2,20 @@ import CupsImage from "../assets/cups.jpg";
 import VasesImage from "../assets/vase.jpg";
 import PlatesImage from "../assets/plate.jpg";
 import AccesoryImage from "../assets/accesories.png"
-import ToolsImage from "../assets/tools.png";
-  const products = [
+  const categories = [
      {
       image: CupsImage,
-      productId: "cups",
+      categoryId: "cups",
       title: "Cups",
      },
      {
       image: PlatesImage,
-      productId: "plates",
+      categoryId: "plates",
       title: "Plates",
      },
      {
       image: VasesImage,
-      productId: "vases",
+      categoryId: "vases",
       title: "Vases",
      },
      {
@@ -24,18 +23,7 @@ import ToolsImage from "../assets/tools.png";
       categoryId: "accessories",
       title: "Accessories",
      },
-     {
-      image: ToolsImage,
-      categoryId: "tools",
-      title: "Tools",
-     },
-     {
-      image: AccesoryImage,
-      categoryId: "equipment",
-      title: "Equipment",
-     },
-     
   ];
   export function getProducts(){
-    return products;
+    return categories;
   };

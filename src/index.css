@@ -13,10 +13,9 @@ code {
     monospace;
 }
 .container{
-  max-width: 987px;
+  max-width: 1030px;
   margin: 0 auto;
   padding: 0 1rem;
-  
 }
 .circle{
   position: absolute;

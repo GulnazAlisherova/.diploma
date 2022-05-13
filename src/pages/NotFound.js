@@ -1,4 +1,4 @@
-import headerImage from "../assets/home.jpg";
+import notfoundImage from "../assets/notfound.png";
 import Header from "../components/Header/Header";
 
 function NotFound() {
@@ -6,7 +6,7 @@ function NotFound() {
     <>
       <Header
         title="Page not found"
-        image={headerImage}>
+        image={notfoundImage}>
         Maybe the page you are looking for was moved or deleted.
       </Header>
     </>
