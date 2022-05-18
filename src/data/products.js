@@ -3,6 +3,8 @@ import VasesImage from "../assets/vase.jpg";
 import PlatesImage from "../assets/plate.jpg";
 import AccesoryImage from "../assets/accesories.png"
 import ToolsImage from "../assets/tools.png";
+
+import EquipmentImage from "../assets/equipment.jpg";
   const products = [
      {
       image: CupsImage,
@@ -33,7 +35,7 @@ import ToolsImage from "../assets/tools.png";
       price: 10,
      },
      {
-      image: AccesoryImage,
+      image: EquipmentImage,
       categoryId: "equipment",
       title: "Equipment",
      },
