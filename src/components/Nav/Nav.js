@@ -7,7 +7,6 @@ function Nav() {
           <NavItem url="/about">About</NavItem>
           <NavItem url="/products">Products</NavItem>
           <NavItem url="/contacts">Contacts</NavItem>
-          <NavItem url="/sign-in">Sign in</NavItem>
     </ul>
     
   );

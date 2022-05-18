@@ -9,7 +9,6 @@
   position: relative;
   margin-bottom: 5rem;
 }
-
 .Header section {
   position: absolute;
   bottom: -3rem;
@@ -27,14 +26,14 @@
   min-height: 380px;
   margin: 1.5rem 0;
   object-fit: cover;
-  /* object-position: center;
-
-
-  border-radius: 2rem;
-  box-shadow: 0 0 10px rgba(0, 0, 0, .3); */
 }
 
 .Header h1 {
   margin: 0;
   font-size: 2rem;
 } 
+section p{
+  color: black;
+  font-weight: 400;
+  display: flex;
+}

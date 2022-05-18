@@ -24,6 +24,15 @@ import AccesoryImage from "../assets/accesories.png"
       title: "Accessories",
      },
   ];
-  export function getProducts(){
-    return categories;
-  };
+  
+export function getCategories() {
+  return categories;
+}
+
+export function getCategory(categoryId) {
+  return categories[
+    categories.findIndex(
+      category =>  category.categoryId === categoryId
+    )
+  ];
+} 

@@ -9,6 +9,7 @@ function Header({ image, title, children }) {
         <p>{children}</p>
       </section>
     </header>
+    
   );
 }
 export default Header;
