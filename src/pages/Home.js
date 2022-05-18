@@ -1,12 +1,12 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/home.jpeg";
-import CategoryList from "../components/CategoryList/CategoryList";
-import { getCategories } from "../data/categories";
+import headerImage from "../assets/headerr.png";
+// import CategoryList from "../components/CategoryList/CategoryList";
+// import { getCategories } from "../data/categories";
 function Home() {
   return (
     <>
       <Header
-        title="Enjoy Our Delicious Meal"
+        title="Pottery"
         image={headerImage}
         p="Book a table"
       >
@@ -14,7 +14,6 @@ function Home() {
         amet diam et eos. Clita erat ipsum et lorem et sit, sed stet lorem sit
         clita duo justo magna dolore erat amet
       </Header>
-      <CategoryList categories={getCategories()}/>
     </>
   );
 }
