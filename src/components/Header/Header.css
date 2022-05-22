@@ -1,13 +1,17 @@
 .Header {
-  min-height: 50vh;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  padding: 1rem;
-  background-size: cover;
-  color: black;
   position: relative;
   margin-bottom: 5rem;
+}
+
+.Header img {
+  width: 100%;
+  height: 40vh;
+  min-height: 380px;
+  object-fit: cover;
+  object-position: center;
+
+  margin: 2rem 0;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
 .Header section {
   position: absolute;
@@ -16,24 +20,165 @@
   max-width: 500px;
   margin-left: 2rem;
 
-  background-color: rgba(185, 145, 116, 0.668);
+  background-color: white;
   padding: 0 2rem 0;
   font-size: 1.2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
-.Header img {
-  width: 100%;
-  height: 40vh;
-  min-height: 380px;
-  margin: 1.5rem 0;
-  object-fit: cover;
-}
-
 .Header h1 {
-  margin: 0;
   font-size: 2rem;
 } 
-section p{
-  color: black;
-  font-weight: 400;
+
+/* .heroEffects {
+    height: 100vh;
+    position: relative;
+    z-index: -1;
+    top: 0;
+    left: 0;
+}
+.bg {
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+  background-image: url('https://s3-us-west-2.amazonaws.com/s.cdpn.io/30256/jungleBG.jpg');
+  background-repeat: no-repeat;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  background-position: center center;
+   transform: scale(1); 
+}
+.shade {
+  opacity: 0;
+  background: rgba(0, 0, 0, .8);
+  z-index: 3;
+  height: 100vh;
+  position: fixed;
+  width: 100%;
+}
+.title {
+  width: 100%;
+}
+.text {
+  z-index: 1;
+  width: 100%;
+  text-align: center;
+  color: White;
+  padding: 4em;
+  background: rgba(0, 0, 0, .6);
+}
+.arrow {
+  position: fixed;
+  left: 50%;
+  margin-left: -20px;
+  bottom: 0;
+  width: 40px;
+  height: 40px;
+  opacity: 1;
+}
+
+
+.centerV {
+  display: table;
+  height: 100%;
+}
+
+h1 {
+  font-size: 5em;
+  margin-bottom: 0.1em;
+  font: 5em/1em
+}
+
+
+
+
+.bouncy {
+  animation: Weeeeeeeeeee 3s infinite cubic-bezier(0.175, 0.885, 0.32, 1.275);
+}
+
+@keyframes Weeeeeeeeeee {
+ 0% {
+     transform: translate(0, 0px);
+     animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+ }
+ 11% {
+     transform: translate(0, -25px) scaleX(.8);
+     animation-timing-function: cubic-bezier(.57, .01, .84, .5);
+ }
+ 20% {
+     transform: translate(0, 0px) scaleY(.8);
+     animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+ }
+ 28% {
+     transform: translate(0, -10px);
+     animation-timing-function: cubic-bezier(.57, .01, .84, .5);
+ }
+ 36% {
+     transform: translate(0, 0px);
+     animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+ }
+ 100% {
+     transform: translate(0, 0px);
+     animation-timing-function: cubic-bezier(.19, .28, .27, 1);
+    }
+}
+
+*, *::before, *::after { box-sizing: border-box; }
+
+html, body { height: 100%; }
+
+body {
+    font-family: 'Julius Sans One', sans-serif;
+    font-size: 12px;
+} */
+
+.about img{
+  height: 490px;
+  width: 300px;
+  padding: 10px;
+}
+.about {
+  padding-top: 50px;
+  width: 100%;
+}
+@media (max-width: 600px) {
+  main {
+    padding-top: 15px;
+    flex-wrap: wrap;
+  }
+}
+.about #video {
+  height: 490px;
+  padding: 15px;
+}
+.about-container {
   display: flex;
+  background-color: aliceblue;
+  flex-direction: row;
+  align-items: center;
+  width: 100%;
+  max-width: 1500px;
+  padding: 30px;
+  margin: auto;
+}
+
+@media (max-width: 600px) {
+  .about-container {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: auto;
+  }
+}
+.about p {
+  font-size: 17px;
+  width: 60%;
+  padding: 40px;
+  font-weight: 200;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
+}
+@media (max-width: 600px) {
+  main {
+    padding-top: 15px;
+    flex-wrap: wrap;
+  }
 }

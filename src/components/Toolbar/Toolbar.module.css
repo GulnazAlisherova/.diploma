@@ -1,5 +1,5 @@
- .Toolbar {
-  background-color: rgba(233, 163, 113, 0.668);
+.Toolbar {
+  background-color: rgb(92, 79, 72);
   color: white;
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }
@@ -9,7 +9,7 @@
   justify-content: space-between;
   max-width: 987px;
   margin: 0 auto;
-  padding: 0 1rem;  
+  padding: 0 1rem;
 }
 @media (max-width: 620px) {
   .Toolbar ul {

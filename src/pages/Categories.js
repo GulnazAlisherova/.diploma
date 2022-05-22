@@ -1,5 +1,5 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/header.webp";
+import headerImage from "../assets/product.jpg";
 import { getCategories } from "../data/categories";
 import CategoryList from "../components/CategoryList/CategoryList";
 
@@ -17,4 +17,4 @@ function Categories() {
   );
 }
 
-export default Categories; 
+export default Categories;

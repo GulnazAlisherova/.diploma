@@ -6,7 +6,6 @@ function ProductList({ products }) {
     <ProductItem key={product.productId} product={product} />
   ));
 
-
   return (
     <div className={classes.ProductList}>
       {productItems}
@@ -14,4 +13,4 @@ function ProductList({ products }) {
   );
 }
 
-export default ProductList;
+export default ProductList; 

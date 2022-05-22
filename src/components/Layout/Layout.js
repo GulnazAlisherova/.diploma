@@ -1,5 +1,6 @@
 import { useState } from "react";
 import Drawer from "../Drawer/Drawer";
+import Footer from "../Footer/Footer";
 import Toolbar from "../Toolbar/Toolbar";
 
 function Layout({ children }) {
@@ -16,7 +17,9 @@ function Layout({ children }) {
       <div className="container">
         {children}
       </div>
-      </main>
+      <Footer />
+    </main>
   );
 }
-export default Layout; 
+
+export default Layout;

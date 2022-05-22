@@ -11,5 +11,4 @@ function NavItem(props) {
     </li>
   );
 }
-
-export default NavItem;
+export default NavItem; 

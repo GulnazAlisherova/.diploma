@@ -1,10 +1,10 @@
 import { useParams } from "react-router-dom";
 import Header from "../components/Header/Header";
-import { getProducts } from "../data/products";
+import { getProduct } from "../data/products";
 
 function Product() {
   const params = useParams();
-  const product = getProducts(params.productId);
+  const product = getProduct(params.productId);
 
   if (!product) {
     return null;
