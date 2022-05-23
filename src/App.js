@@ -3,11 +3,11 @@ import Contacts from "./pages/Contacts";
 import Products from "./pages/Products";
 import { Route, Routes } from "react-router-dom";
 import Layout from "./components/Layout/Layout";
-import Product from "./pages/Product";
 import About from "./pages/About";
 import NotFound from "./pages/NotFound";
 import Categories from "./pages/Categories";
 import Category from "./pages/Category";
+import Product from "./pages/Product/Product";
 
 function App() {
     

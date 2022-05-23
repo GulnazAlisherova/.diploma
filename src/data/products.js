@@ -24,7 +24,7 @@ const products = [
     productId: "coffe-mug",
     categoryId: "cups",
     title: "Coffee Mug",
-    description: `When the fruit is ripe, it is almost always handpicked, using either "selective picking", where only the ripe fruit is removed, or "strip-picking", where all of the fruit is removed from a limb all at once. Selective picking is often used to produce higher quality coffee because the cherries are picked at their ripest. Strip-picking is indiscriminate and will harvest unripe, ripe, and over-ripe fruit. To improve quality after strip-picking, the harvest must be sorted.`,
+    description: `Not only does the brew matter when it comes to coffee, but your mug choice matters too. Your mug choice can affect the taste of your drink, so it’s very important to choose carefully. Ceramic and stoneware coffee mugs often go head to head because while they have a lot in common, there are some key differences.  `,
     price: 10,
   },
   {
@@ -32,7 +32,7 @@ const products = [
     productId: "wavy-mug",
     categoryId: "cups",
     title: "Wavy Mug",
-    description: `The Asian palm civet eats coffee berries and excretes the beans. Because the civet prefers the taste of the ripest cherries, the civet selectively harvests the cherries. Its digestive system then processes the beans by breaking down the mucilage and pulp surrounding the seed. Once the seeds are excreted by the civet, they can be harvested, processed and sold as a niche product. Once they are finally processed, these beans are called kopi luwak, and are often marketed as a rare and expensive coffee.`,
+    description: `Ceramic is a material that is mechanically strong and can be given the desired shape easily. Mugs and other products made with ceramics have a long life as compared to mugs made of glass. Also ceramic can be given any shape easily that makes possible to make different design mugs`,
     price: 15,
   },
   {
@@ -40,7 +40,8 @@ const products = [
     productId: "kitty-coffe-mugs",
     categoryId: "cups",
     title: "Kitty coffe mugs",
-    description: `Two methods are primarily used to process coffee berries. The first, "wet" or "washed" process, has historically usually been carried out in Central America and areas of Africa. The flesh of the cherries is separated from the seeds and then the seeds are fermented – soaked in water for about two days. This softens the mucilage, which is a sticky pulp residue that is still attached to the seeds. Then this mucilage is washed off with water.`,
+    description: `
+    They're common among coffee and tea drinkers. They're good to use for both cold and hot beverages and are microwave-safe! Ceramic mugs are the most neutral in terms of flavor. They do not hold on to flavors from other drinks.`,
     price: 44,
   },
   {
@@ -48,7 +49,8 @@ const products = [
     productId: "dried-flower-vase",
     categoryId: "vases",
     title: "Dried flower vase",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+    description: `
+    A ceramic vase is made from natural or specially formulated clay. Various types of clays with different properties and colors are available in a ceramics supplies shop.`,
     price: 53,
   },
   {
@@ -56,7 +58,7 @@ const products = [
     productId: "artlandtis-face-vase",
     categoryId: "vases",
     title: "Artlandtis Face Vase",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `Give our home the life and glory it deserves with Artlandtis The David Head Vase sculpture!This stunning artistic piece is crafted with utmost perfection .`,
     price: 11,
   },
   {
@@ -64,7 +66,7 @@ const products = [
     productId: "vintage-ceramic-vase",
     categoryId: "vases",
     title: "Vintage ceramic vase",
-    description: `The "dry processing" method, cheaper and simpler, was historically used for lower-quality beans in Brazil and much of Africa, but now brings a premium when done well. Twigs and other foreign objects are separated from the berries and the fruit is then spread out in the sun on concrete, bricks or raised beds for 2–3 weeks, turned regularly for even drying.`,
+    description: `Ceramic vase Active glaze ceramics are naturally flexible and stable in production. As an industry leader, don't hesitate to contact us for more high-quality products. transport safety.`,
     price: 70,
   },
   {
@@ -72,7 +74,7 @@ const products = [
     productId: "tableware-dish-set",
     categoryId: "plates",
     title: "Tableware dish set",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `Ceramic dishes are chippable but durable, tough, and corrosion-resistant. Unless, of course, you slip one on the floor. Ceramic cookware is oven and microwave-safe. Meaning, it's perfect for cooking different dishes at high temperatures.`,
     price: 90,
   },
   {
@@ -80,7 +82,7 @@ const products = [
     productId: "kiwi-ceramic-plate",
     categoryId: "plates",
     title: "Kiwi ceramic plate",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `Painting your own pottery might not be good, clean fun, but at these paint-your-own places, you'll find out why it's worth getting your hands dirty.`,
     price: 50,
   },
   {
@@ -88,7 +90,7 @@ const products = [
     productId: "flower-ceramic-plate",
     categoryId: "plates",
     title: "Flower-ceramic plate",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `Ceramic plates or trauma plates are used as inserts in soft ballistic vests. It is hard enough to ensure that a bullet or other weapon is deflected, meaning the armor material pushes out on the bullet with nearly the same force with which the bullet pushes in, thus preventing the armor from being penetrated.`,
     price: 30,
   },
   {
@@ -96,7 +98,8 @@ const products = [
     productId: "2pcs-rabbit-ceramic",
     categoryId: "accesories",
     title: "2pcs Rabbit ceramic",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `Funny Home Decor - Excellent Easter Bunny Ornament for anywhere, such as home, office, party, etc.
+    Vivid Bunny Decor - This Ceramic Bunny Decor with fine workmanships, delicate surface, lifelike shape design.`,
     price: 10,
   },
   {
@@ -104,7 +107,7 @@ const products = [
     productId: "ceramic-coasters",
     categoryId: "accesories",
     title: "Ceramic coasters",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `While coasters come in a wide variety of materials, from cotton to cork, some of the most absorbent choices are felt and porous stones like ceramic and sandstone. If you go with one of these materials, your coasters will be able to properly manage any condensation that runs off your glass.`,
     price: 75,
   },
   {
@@ -112,15 +115,16 @@ const products = [
     productId: "ceramic-ring-holder",
     categoryId: "accesories",
     title: "Ceramic ring holder",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `The glaze breaks where its thinner to a lighter color. This is easy to see on the rim of each ring dish. `,
     price: 80,
   },
   {
     image: equipment1Image,
-    productId: "pottery-wheel-orange",
+    productId: "pottery-wheel ",
     categoryId: "equipment",
-    title: "Pottery  Wheel orange",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    title: "Pottery  Wheel",
+    description: `The term 'collaring' refers to a type of the ceramic technique that involves throwing a pot onto a potter's wheel. It is done by narrowing the top of the pot for the purpose of preventing the wet clay from being flared.
+    `,
     price: 500,
   },
   {
@@ -128,7 +132,8 @@ const products = [
     productId: "pottery-wheel-blue",
     categoryId: "equipment",
     title: "Pottery Wheel blue",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `
+    Right handed potters should let the wheel spin anti-clockwise and left-handed throwers should switch the direction of the wheel head to a clockwise motion.`,
     price: 550,
   },
   {
@@ -136,7 +141,8 @@ const products = [
     productId: "pottery-wheel-white",
     categoryId: "equipment",
     title: "Pottery wheel white",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `
+    It comes with a foot pedal that turns the wheel faster when pressure is put on it. The wheel is placed in a frame and is about waist high. You sit in front of the wheel and lean forward to work with the clay. The wheel will turn non-stop as long as there is pressure on the foot pedal.`,
     price: 540,
   },
   {
@@ -144,7 +150,7 @@ const products = [
     productId: "6pcs-tool-set",
     categoryId: "tools",
     title: "6pcs Tool set",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `There are pottery tools specifically designed for ceramics. Among these are: elephant ear sponges, potter ribs, loop tools, needle tools, fettling knives, and toggle clay cutters. Other essential ceramic tools are the elephant ear sponge and potter ribs.`,
     price: 6,
   },
   {
@@ -152,7 +158,7 @@ const products = [
     productId: "8pcs-tool-set",
     categoryId: "tools",
     title: "8pcs Tool set",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `The three main pieces of clay processing equipment are clay mixers, pugmills, and pugger-mixers. Clay mixers only mix clay body ingredients and are also used to recycle clay scraps.`,
     price: 8,
   },
   {
@@ -160,7 +166,7 @@ const products = [
     productId: "full-tool-set",
     categoryId: "tools",
     title: "Full Tool set",
-    description: `Clinical research indicates that moderate coffee consumption is benign or mildly beneficial as a stimulant in healthy adults, with continuing research on whether long-term consumption reduces the risk of some diseases, although some of the long-term studies are of questionable credibility.`,
+    description: `There are four basic types of pottery, porcelain, stoneware, earthenware,and Bone China. Those four vary in accordance to the clay used to create them,as well as the heat required to fire them.`,
     price: 22,
   },
 ];

@@ -1,0 +1,26 @@
+.Product {
+  display: flex;
+}
+.Product2 {
+  padding: 1rem;
+  text-align: center;
+  line-height: 38px;
+}
+.title {
+  color: rgb(79, 92, 117);
+}
+.p {
+  color: black;
+}
+.btn {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(79, 92, 117);
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 15px;
+}
+.image{
+  width: 350px;
+}
