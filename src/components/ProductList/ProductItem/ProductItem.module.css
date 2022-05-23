@@ -20,7 +20,9 @@
   left: 1.5rem;
   right: 1.5rem;
 
-  background-color: rgb(63, 29, 5);
+  cursor: pointer;
+  text-decoration: none;
+  background-color: rgb(79, 92, 117);
   color: white;
   font-weight: bold;
   font-size: 1.3rem;
@@ -35,8 +37,8 @@
   z-index: 3;
   right: 0;
 
-  background-color: rgb(63, 29, 5);
-  color: white;
+  background-color: rgb(79, 92, 117);
+  color: rgb(245, 243, 243);
   font-weight: bold;
   font-size: 1.3rem;
   padding: 1rem;
