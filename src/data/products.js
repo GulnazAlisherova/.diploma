@@ -81,7 +81,7 @@ const products = [
     image: plate2Image,
     productId: "kiwi-ceramic-plate",
     categoryId: "plates",
-    title: "Kiwi ceramic plate",
+    title: "Lovely ceramic plate",
     description: `Painting your own pottery might not be good, clean fun, but at these paint-your-own places, you'll find out why it's worth getting your hands dirty.`,
     price: 50,
   },
