@@ -96,7 +96,7 @@ const products = [
   {
     image: acces1Image,
     productId: "2pcs-rabbit-ceramic",
-    categoryId: "accesories",
+    categoryId: "accessories",
     title: "2pcs Rabbit ceramic",
     description: `Funny Home Decor - Excellent Easter Bunny Ornament for anywhere, such as home, office, party, etc.
     Vivid Bunny Decor - This Ceramic Bunny Decor with fine workmanships, delicate surface, lifelike shape design.`,
@@ -105,7 +105,7 @@ const products = [
   {
     image: acces2Image,
     productId: "ceramic-coasters",
-    categoryId: "accesories",
+    categoryId: "accessories",
     title: "Ceramic coasters",
     description: `While coasters come in a wide variety of materials, from cotton to cork, some of the most absorbent choices are felt and porous stones like ceramic and sandstone. If you go with one of these materials, your coasters will be able to properly manage any condensation that runs off your glass.`,
     price: 75,
@@ -113,7 +113,7 @@ const products = [
   {
     image: acces3Image,
     productId: "ceramic-ring-holder",
-    categoryId: "accesories",
+    categoryId: "accessories",
     title: "Ceramic ring holder",
     description: `The glaze breaks where its thinner to a lighter color. This is easy to see on the rim of each ring dish. `,
     price: 80,
@@ -123,8 +123,8 @@ const products = [
     productId: "pottery-wheel ",
     categoryId: "equipment",
     title: "Pottery  Wheel",
-    description: `The term 'collaring' refers to a type of the ceramic technique that involves throwing a pot onto a potter's wheel. It is done by narrowing the top of the pot for the purpose of preventing the wet clay from being flared.
-    `,
+    description: `
+    The term 'collaring' refers to a type of the ceramic technique that involves throwing a pot onto a potter's wheel. It is done by narrowing the top of the pot for the purpose of preventing the wet clay from being flared.`,
     price: 500,
   },
   {
@@ -170,6 +170,7 @@ const products = [
     price: 22,
   },
 ];
+
 
 export function getProducts(categoryId) {
   if (categoryId) {

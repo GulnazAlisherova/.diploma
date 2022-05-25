@@ -1,4 +1,4 @@
-import accessoriesImage from "../assets/acces.jpg";
+import accessoriesImage from "../assets/accessoriesImage.jpg";
 import toolsImage from "../assets/tools.png";
 import cupImage from "../assets/cups.jpg";
 import vaseImage from "../assets/vase.jpg";

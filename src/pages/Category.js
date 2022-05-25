@@ -19,7 +19,7 @@ function Category() {
         image={category.image}>
         {category.desciption}
       </Header>
-      <ProductList products={getProducts()}/>
+      <ProductList products={getProducts(category.categoryId)} />
     </>
   );
 }
