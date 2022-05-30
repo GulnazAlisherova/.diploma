@@ -86,15 +86,16 @@
   padding: 30px;
 }
 .card{
+  margin-right: 40px;
   border: 2px solid white;
   background-color: rgb(183, 174, 158);
   width: 500px;
   border-radius: 1rem;
+  padding: 14px;
 }
 .card h4{
   color: blue;
 }
 .card img{
-  text-align: center;
-  width: 100px;
+   width: 100px;
 }

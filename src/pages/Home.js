@@ -9,7 +9,7 @@ function Home() {
     <Header
       title="Welcome to our ceramic shop!"
       image={headerImage}>
-      A ceramic is any of the various hard, brittle, heat-resistant and corrosion-resistant materials made by shaping and then firing an inorganic
+      A ceramic is any of the various hard, brittle, heat-resistant and corrosion-resistant materials made by shaping and then firing an inorganic.
     </Header>
     <CategoryList categories={getCategories()} />
    

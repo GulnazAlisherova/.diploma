@@ -32,6 +32,33 @@
   box-shadow: 0 0 10px rgba(0, 0, 0, .3);
   transition: .2s ease-in-out;
 }
+.ProductItem a::before {
+  height: 7px;
+  border-radius: 20px;
+  transform: scale3d(1, 1, 1);
+  transition: transform 0.2s, opacity 0.2s;
+  transition-timing-function: cubic-bezier(0.2, 0.57, 0.67, 1.53);
+}
+
+.ProductItem a:hover::before {
+  transition-timing-function: cubic-bezier(0.8, 0, 0.1, 1);
+  transition-duration: 0.4s;
+  opacity: 1;
+  transform: scale3d(1.2, 0.1, 1);
+}
+
+.ProductItem a {
+  transform: translate3d(0, -4px, 0);
+  display: inline-block;
+  transition: transform 0.2s 0.05s cubic-bezier(0.2, 0.57, 0.67, 1.53);
+}
+
+.ProductItem a:hover  {
+  transform: translate3d(0, 0, 0);
+  transition-timing-function: cubic-bezier(0.8, 0, 0.1, 1);
+  transition-duration: 0.4s;
+  transition-delay: 0s;
+}
 .ProductItem .price {
   position: absolute;
   top: -1.5rem;

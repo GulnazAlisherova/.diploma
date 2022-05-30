@@ -15,7 +15,7 @@ function Layout({ children }) {
       <Toolbar toggleDrawer={toggleDrawer} />
       <Drawer open={drawerOpen} toggle={toggleDrawer} />
       <div className="container">
-        {children}
+        {children} 
       </div>
       <Footer />
     </main>

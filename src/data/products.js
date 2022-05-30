@@ -7,16 +7,9 @@ import vase3Image from "../assets/vase3.jpg";
 import plate1Image from "../assets/plate1.jpg";
 import plate2Image from "../assets/plate2.jpg";
 import plate3Image from "../assets/plate3.jpg";
-import acces1Image from "../assets/acces1.jpg";
-import acces2Image from "../assets/acces2.jpg";
-import acces3Image from "../assets/acces3.jpg";
-import equipment1Image from "../assets/equipment1.jpg";
-import equipment2Image from "../assets/equipment2.jpg";
-import equipment3Image from "../assets/equipment3.jpg";
-import tool1Image from "../assets/tool1.webp";
-import tool2Image from "../assets/tool2.jpg";
-import tool3Image from "../assets/tool3.jpg";
-
+import acces1Image from "../assets/cat.jpg";
+import acces2Image from "../assets/coaster.jpg";
+import acces3Image from "../assets/candle.jpg";
 
 const products = [
   {
@@ -95,9 +88,9 @@ const products = [
   },
   {
     image: acces1Image,
-    productId: "2pcs-rabbit-ceramic",
+    productId: "ceramic-cat",
     categoryId: "accessories",
-    title: "2pcs Rabbit ceramic",
+    title: "Ceramic Cat",
     description: `Funny Home Decor - Excellent Easter Bunny Ornament for anywhere, such as home, office, party, etc.
     Vivid Bunny Decor - This Ceramic Bunny Decor with fine workmanships, delicate surface, lifelike shape design.`,
     price: 10,
@@ -112,63 +105,13 @@ const products = [
   },
   {
     image: acces3Image,
-    productId: "ceramic-ring-holder",
+    productId: "PomegranateCandles",
     categoryId: "accessories",
-    title: "Ceramic ring holder",
+    title: "PomegranateCandles",
     description: `The glaze breaks where its thinner to a lighter color. This is easy to see on the rim of each ring dish. `,
     price: 80,
   },
-  {
-    image: equipment1Image,
-    productId: "pottery-wheel ",
-    categoryId: "equipment",
-    title: "Pottery  Wheel",
-    description: `
-    The term 'collaring' refers to a type of the ceramic technique that involves throwing a pot onto a potter's wheel. It is done by narrowing the top of the pot for the purpose of preventing the wet clay from being flared.`,
-    price: 500,
-  },
-  {
-    image: equipment2Image,
-    productId: "pottery-wheel-blue",
-    categoryId: "equipment",
-    title: "Pottery Wheel blue",
-    description: `
-    Right handed potters should let the wheel spin anti-clockwise and left-handed throwers should switch the direction of the wheel head to a clockwise motion.`,
-    price: 550,
-  },
-  {
-    image: equipment3Image,
-    productId: "pottery-wheel-white",
-    categoryId: "equipment",
-    title: "Pottery wheel white",
-    description: `
-    It comes with a foot pedal that turns the wheel faster when pressure is put on it. The wheel is placed in a frame and is about waist high. You sit in front of the wheel and lean forward to work with the clay. The wheel will turn non-stop as long as there is pressure on the foot pedal.`,
-    price: 540,
-  },
-  {
-    image: tool1Image,
-    productId: "6pcs-tool-set",
-    categoryId: "tools",
-    title: "6pcs Tool set",
-    description: `There are pottery tools specifically designed for ceramics. Among these are: elephant ear sponges, potter ribs, loop tools, needle tools, fettling knives, and toggle clay cutters. Other essential ceramic tools are the elephant ear sponge and potter ribs.`,
-    price: 6,
-  },
-  {
-    image: tool3Image,
-    productId: "8pcs-tool-set",
-    categoryId: "tools",
-    title: "8pcs Tool set",
-    description: `The three main pieces of clay processing equipment are clay mixers, pugmills, and pugger-mixers. Clay mixers only mix clay body ingredients and are also used to recycle clay scraps.`,
-    price: 8,
-  },
-  {
-    image: tool2Image,
-    productId: "full-tool-set",
-    categoryId: "tools",
-    title: "Full Tool set",
-    description: `There are four basic types of pottery, porcelain, stoneware, earthenware,and Bone China. Those four vary in accordance to the clay used to create them,as well as the heat required to fire them.`,
-    price: 22,
-  },
+  
 ];
 
 

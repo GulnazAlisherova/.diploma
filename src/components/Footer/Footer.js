@@ -22,13 +22,13 @@ function Footer() {
        </ul>
        </div> */}
        <div className="icons">
-         <ul>
+         {/* <ul>
            <li><a href="/"><i class="fa-brands fa-facebook-f"></i></a></li>
            <li><a href="/"><i class="fa-brands fa-twitter"></i></a></li>
            <li><a href="/"><i class="fa-brands fa-google-plus-g"></i></a></li>
            <li><a href="/"><i class="fa-brands fa-instagram"></i></a></li>
-         </ul>
-         ©Copyright All rights reserved.
+         </ul> */}
+         {/* ©Copyright All rights reserved. */}
        </div>
     </footer>
     
