@@ -3,7 +3,8 @@ import classes from "./CategoryItem.module.css";
 
 function CategoryItem({ category }) {
   return (
-    <div className={classes.CategoryItem}>
+    <div className={classes.container}>
+      <div className={classes.CategoryItem}>
       <Link to={"/categories/" + category.categoryId}>
         <div className={classes.CategoryItemImage}>
           <img src={category.image} alt={category.title} />
@@ -12,6 +13,7 @@ function CategoryItem({ category }) {
           </div>
         </div>
       </Link>
+    </div>
     </div>
   );
 }
