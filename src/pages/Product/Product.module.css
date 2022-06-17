@@ -5,9 +5,11 @@
   padding: 1rem;
   text-align: center;
   line-height: 38px;
+  border: 1px solid white;
+  margin: 15px;
 }
 .title {
-  color: rgb(79, 92, 117);
+  color: rgb(0, 0, 0);
 }
 .p {
   color: black;
@@ -21,6 +23,13 @@
   font-weight: 300;
   border-radius: 15px;
 }
+.btn:hover{
+  color: rgb(79, 92, 117);
+  background-color: rgb(209, 209, 209);
+  font-weight: 600;
+}
 .image{
-  width: 350px;
+  width: 300px;
+  height: 300px;
+  margin-top: 20px;
 }

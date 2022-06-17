@@ -20,7 +20,7 @@
   object-fit: cover;
   width: 250px;
   height: 250px;
-  border-radius: 100%;
+  border-radius: 30px;
 }
 .CategoryItemImage .CategoryItemText {
   position: absolute;
