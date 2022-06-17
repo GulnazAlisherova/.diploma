@@ -18,7 +18,10 @@
   margin: 0;
   display: flex;
 }
+.Nav i{
+  color: black;
 
+}
 @media (max-width: 620px) {
   .Nav {
     flex-direction: column;
