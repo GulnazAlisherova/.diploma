@@ -9,8 +9,6 @@ function Nav() {
       <NavItem url="/about">About</NavItem>
       <NavItem url="/products">All Products</NavItem>
       <NavItem url="/contacts">Contacts</NavItem>
-      
-      {/* <i  class="fa-solid fa-cart-shopping " ></i> */}
     </ul>
   );
 }
