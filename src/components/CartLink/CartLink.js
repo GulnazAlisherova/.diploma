@@ -7,6 +7,6 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"></i> ({number})</NavLink>
+    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"></i> {number} </NavLink>
   );
 }

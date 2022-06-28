@@ -4,18 +4,31 @@ import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { checkout } from "../redux/cartSlice";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
+import { useEffect } from "react";
 
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const items = useSelector(store => store.cart.items);
+  const { items, localId } = useSelector(store => ({
+    items: store.cart.items,
+    localId: store.auth.localId
+  }));
+
+  useEffect(() => {
+    if (!localId) {
+      navigate('/auth');
+    }
+  }, [localId, navigate]);
 
   function onCheckout(event) {
     event.preventDefault();
 
     const formData = new FormData(event.target);
-    const order = { items: items, ...Object.fromEntries(formData.entries()) };
-    dispatch(checkout(order));
+    dispatch(checkout({
+      localId: localId,
+      items: items,
+      ...Object.fromEntries(formData.entries()),
+    }));
     navigate('/');
   }
 
@@ -52,6 +65,5 @@ function Checkout() {
     </>
   );
 }
-
 
 export default Checkout;

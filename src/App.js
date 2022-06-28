@@ -13,6 +13,7 @@ import Auth from "./pages/Auth";
 import Cart from "./pages/Cart";
 import { useDispatch } from "react-redux";
 import { useEffect } from "react";
+import SignOut from "./pages/SignOut";
 
 
 function App() {
@@ -35,6 +36,7 @@ function App() {
           <Route path="/cart" element={<Cart />} />
           <Route path="/checkout" element={<Checkout />} />
           <Route path="/auth" element={<Auth />} />
+          <Route path="/signout" element={<SignOut />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </Layout>

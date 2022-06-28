@@ -19,9 +19,10 @@ function Product() {
         <button className={classes.btn}>
           {product.price}$
         </button>
+        <CartButton productId={params.productId} />
       </div>
       <img className={classes.image} src={product.image} alt={product.title} />
-      <CartButton productId={params.productId} />
+      
     </div>
   );
 }
