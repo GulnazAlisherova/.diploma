@@ -49,7 +49,7 @@
 }
 .about-container {
   display: flex;
-  background-color: rgba(210, 153, 235, 0.763);
+  background-color: rgba(147, 141, 149, 0.807);
   flex-direction: row;
   align-items: center;
   width: 100%;
