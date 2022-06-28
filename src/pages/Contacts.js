@@ -7,23 +7,31 @@ function Contacts() {
       <Header
         title="Get in touch"
         image={headerImage}>
-       Want to get in touch? We'd love to hear from you. Here's  how you can reach us...
+        Want to get in touch? We'd love to hear from you. Here's  how you can reach us...
       </Header>
-     {/* <div className="full-card">
-     <div className="card">
-          <img src="http://www.clker.com/cliparts/f/D/Z/i/d/G/phone-logo-hi.png" alt="picture of phone"/>
-          <h3>Talk to sales</h3>
-          <p>Want to order your type of Ceramic? Just pick up the phone to chat with a member of our team.</p>
-          <h4>+996 789 987 00</h4>
+
+      <div className="container2">
+        <form id="contact" action="">
+          <h3>Quick Contact</h3>
+          <h4>Contact us today, and get reply with in 24 hours!</h4>
+          <fieldset>
+            <input placeholder="Name" type="text" tabindex="1" required autofocus />
+          </fieldset>
+          <fieldset>
+            <input placeholder="Email Address" type="email" tabindex="2" required />
+          </fieldset>
+          <fieldset>
+            <input placeholder=" Phone Number" type="tel" tabindex="3" required />
+          </fieldset>
+          <fieldset>
+            <textarea placeholder="Type your Message here..." tabindex="5" required></textarea>
+          </fieldset>
+          <fieldset>
+            <button >Submit</button>
+          </fieldset>
+        </form>
       </div>
-      
-        <div className="card">
-          <img src="https://pngimage.net/wp-content/uploads/2018/06/message-symbol-png-7.png" alt=" picture of message"/>
-          <h3>Send a message for customer</h3>
-          <p>Want to order your type of Ceramic? Just pick up the phone to chat with a member of our team.</p>
-          <h4>+996 789 987 00</h4>
-        </div>
-     </div> */}
+
     </>
   );
 }
