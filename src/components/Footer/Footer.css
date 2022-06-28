@@ -1,5 +1,5 @@
 .Footer {
-  background-color: rgb(138, 109, 74);
+  background-color: rgb(70, 111, 92);
   padding: 1rem;
   text-align: center;
   color: white;
@@ -26,18 +26,12 @@
 
 .Footer .icons{
   padding: 0;
-
 }
 .Footer .icons  a{
   display: block;
   color: black;
   padding: 10px;
-  font-size: 1rem;
-  border-radius: 100% 100% ;
-  border: 2px solid black;
-}
-.Footer .icons a:hover{
-  color: rgb(205, 197, 197);
+  font-size: 1.5rem;
 }
 .Footer .icons li{
   list-style-type: none;
@@ -45,9 +39,3 @@
   padding: 7px;
 }
 
-
-@media (max-width: 620px) {
-  .Footer {
-    display: inline-block;
-  }
-} 

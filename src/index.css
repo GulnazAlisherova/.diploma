@@ -1,23 +1,54 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(155, 120, 89);
+  background-color: rgb(65, 104, 86);
   font-family: "Poppins", sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
-/* кроме categories */
-.container { 
+.container {
   max-width: 85%;
   margin: 0 auto;
   padding: 0 1rem;
 }
- /* .circle{
+.card2 {
+  background-color: rgba(200, 110, 236, 0.69);
+  width: 400px;
+  box-shadow: 0 30px 60px 0 rgba(84, 79, 42, 0.4);
+  border-radius: 10px;
+  padding: 45px;
+  text-align: center;
+  margin: 25px auto;
+}
+.card3 button{
+  padding: 6px 15px;
+  margin: 5px;
+  background-color: rgb(79, 92, 117);
+  color: white;
+  font-size: 1rem;
+  font-weight: 200;
+  border-radius: 3px;
+  margin-left: 10px;
+  border: 1.5px solid black;
+}
+.card3 button:hover{
+  cursor: pointer;
+  color: rgb(79, 92, 117);
+  background-color: rgb(209, 209, 209);
+}
+.card3 input{
+  padding: 6px;
+  margin: 5px;
+  background-color: rgb(227, 213, 188);
+  border: none;
+}
+
+/* .circle{
   position: absolute;
   top: 20%;
   left: 50%;

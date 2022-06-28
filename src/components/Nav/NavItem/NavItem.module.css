@@ -47,7 +47,7 @@
   content: "";
   left: 0;
   position: absolute;
-  background-color: #b96729;
+  background-color: rgb(160, 70, 199);
   height: 4px;
   width: 100%;
 }
