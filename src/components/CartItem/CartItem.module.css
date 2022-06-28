@@ -1,4 +1,35 @@
 .CartItem {
   display: flex;
   padding-bottom: 15px;
+  font-size: 1.5rem;
+}
+
+.quantity button{
+  padding: 10px;
+  background-color: black;
+  margin: 0 10px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid black;
+}
+.quantity button:hover{
+  cursor: pointer;
+  background-color: rgb(50, 47, 47);
+}
+.title{
+  color: black;
+  text-decoration: none;
+}
+.subtotal button{
+  padding: 10px;
+  background-color: black;
+  margin: 0 10px;
+  font-weight: 500;
+  color: white;
+  border: 1px solid black;
+}
+.subtotal button:hover{
+  cursor: pointer;
+  background-color: lightgray;
+  color: black;
 }
