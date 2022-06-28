@@ -13,7 +13,7 @@ code {
 }
 /* кроме categories */
 .container { 
-  max-width: 987px;
+  max-width: 85%;
   margin: 0 auto;
   padding: 0 1rem;
 }
