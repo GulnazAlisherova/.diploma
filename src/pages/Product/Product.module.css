@@ -11,10 +11,10 @@
 .title {
   color: rgb(0, 0, 0);
 }
-.p {
+.text {
   color: black;
 }
-.btn {
+.ProductButton {
   width: 120px;
   height: 30px;
   background-color: rgb(79, 92, 117);
@@ -23,7 +23,7 @@
   font-weight: 300;
   border-radius: 15px;
 }
-.btn:hover{
+.ProductButton:hover{
   color: rgb(79, 92, 117);
   background-color: rgb(209, 209, 209);
   font-weight: 600;

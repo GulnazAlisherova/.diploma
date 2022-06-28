@@ -15,8 +15,8 @@ function Product() {
     <div className={classes.Product}>
       <div className={classes.Product2}>
         <h2 className={classes.title}>{product.title}</h2>
-        <p className={classes.p}>{product.description}</p>
-        <button className={classes.btn}>
+        <p className={classes.text}>{product.description}</p>
+        <button className={classes.ProductButton}>
           {product.price}$
         </button>
         <CartButton productId={params.productId} />
