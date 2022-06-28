@@ -1,8 +1,7 @@
 .CategoryItem {
   position: relative;
-  flex: 0 0 10%; 
-   padding: 20px 0;
- 
+  flex: 0 0 10%;
+  padding: 20px 0;
 }
 .container {
   max-width: 1100px;
@@ -22,6 +21,9 @@
   height: 250px;
   border-radius: 30px;
 }
+.CategoryItemImage:hover{
+  opacity: 1;
+}
 .CategoryItemImage .CategoryItemText {
   position: absolute;
   bottom: 0;
@@ -31,7 +33,6 @@
   padding: 0 60px;
   background-color: #d2a967;
   color: black;
-
 
   display: flex;
   flex-direction: column;

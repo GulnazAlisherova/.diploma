@@ -43,7 +43,7 @@ export default function Auth() {
           </label>
           <br />
           <button>Sign in</button>
-          <button>Sign up</button>
+          <button>Sign me up</button>
         </form>
       </div>
     </div>

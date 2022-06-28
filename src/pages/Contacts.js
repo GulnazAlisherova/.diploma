@@ -4,16 +4,16 @@ function Contacts() {
   return (
     <>
       <div className="card4">
-        <div>
+        <div className="line">
           <h3>Get in touch</h3>
           <p>gulnaz@gmail.com</p>
           +7 (903) 508 16 01
           <br />
           +7 (495) 508 16 01
         </div>
-        <img src={contactImage} alt="portlandlogo"/>
-        
+        <img src={contactImage} alt="portlandlogo" />
       </div>
+      
       <div className="container2">
         <form id="contact" action="">
           <h3>Quick Contact</h3>
