@@ -3,7 +3,7 @@ import image from "../assets/home.png";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
 import { Link } from "react-router-dom";
 
-function Cart() {
+function Cart() { 
   return (
     <>
       <Header
