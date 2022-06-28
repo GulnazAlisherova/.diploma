@@ -12,7 +12,7 @@ function Nav() {
       <NavItem url="/products">All Products</NavItem>
       <NavItem url="/contacts">Contacts</NavItem>
       { isAuthenticated ? <NavItem url="/signout">Sign out</NavItem> : null }
-      { !isAuthenticated ? <NavItem url="/auth">Sign in</NavItem> : null }
+      { !isAuthenticated ? <NavItem url="/auth" >Sign in</NavItem> : null }
     </ul>
   );
 }
