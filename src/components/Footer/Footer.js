@@ -3,7 +3,7 @@ import "./Footer.css";
 function Footer() {
   return (
     <div>
-      <footer className="Footer">Ceramic 2022
+      <footer className="Footer">© 2022 Alisherova Gulnaz
         <div className="icons">
           <ul>
             <h3>Find us on:</h3>

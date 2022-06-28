@@ -1,15 +1,19 @@
-import Header from "../components/Header/Header";
-import headerImage from "../assets/contact.jpg";
+import contactImage from "../assets/contact.png";
 
 function Contacts() {
   return (
     <>
-      <Header
-        title="Get in touch"
-        image={headerImage}>
-        Want to get in touch? We'd love to hear from you. Here's  how you can reach us...
-      </Header>
-
+      <div>
+        <div>
+          <h3>Get in touch</h3>
+          <p>gulnaz@gmail.com</p>
+          +7 (903) 508 16 01
+          <br />
+          +7 (495) 508 16 01
+        </div>
+        <img src={contactImage} alt="portlandlogo"/>
+        
+      </div>
       <div className="container2">
         <form id="contact" action="">
           <h3>Quick Contact</h3>
