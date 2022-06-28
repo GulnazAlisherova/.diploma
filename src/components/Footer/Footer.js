@@ -26,7 +26,7 @@ function Footer() {
           </div>
         </div>
         </div>
-          2022 Alisherova Gulnaz KGZ
+          2022 Alisherova Gulnaz.
       </footer>
 
     </div>
