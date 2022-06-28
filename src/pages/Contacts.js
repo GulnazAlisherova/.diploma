@@ -3,7 +3,7 @@ import contactImage from "../assets/contact.png";
 function Contacts() {
   return (
     <>
-      <div>
+      <div className="card4">
         <div>
           <h3>Get in touch</h3>
           <p>gulnaz@gmail.com</p>
