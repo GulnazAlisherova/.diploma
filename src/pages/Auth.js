@@ -28,19 +28,24 @@ export default function Auth() {
   }
 
   return (
-    <form onSubmit={onAuthStart}> 
-      {errorOutput}
-      <label>
-        Email:
-        <input type="email" name="email" />
-      </label>
-      <label>
-        Password:
-        <input type="password" name="password" />
-      </label>
-
-      <button>Sign in</button>
-      <button>Sign up</button>
-    </form>
+    <div className="card2">
+      <div className="card3">
+        <form onSubmit={onAuthStart}>
+          {errorOutput}
+          <label>
+            Email:
+            <input type="email" name="email" />
+            <br />
+          </label>
+          <label>
+            Password:
+            <input type="password" name="password" />
+          </label>
+          <br />
+          <button>Sign in</button>
+          <button>Sign up</button>
+        </form>
+      </div>
+    </div>
   );
 }
