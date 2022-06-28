@@ -1,8 +1,7 @@
 body {
   padding: 0;
   margin: 0;
-  background-color: rgb(65, 104, 86);
-  font-family: "Poppins", sans-serif;
+  font-family: Garamond,Baskerville,Caslon,serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
