@@ -98,7 +98,10 @@
   width: 100px;
 }
 
-
+.card4{
+  display: flex;
+  margin: 0 auto;
+}
 .card4 img{
   width: 200px;
 }
