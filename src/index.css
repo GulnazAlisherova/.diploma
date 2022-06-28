@@ -17,9 +17,9 @@ code {
   padding: 0 1rem;
 }
 .card2 {
-  background-color: rgba(200, 110, 236, 0.69);
+  background-color: rgba(103, 87, 110, 0.763);
   width: 400px;
-  box-shadow: 0 30px 60px 0 rgba(84, 79, 42, 0.4);
+  box-shadow: 10px 30px 40px 0 rgba(56, 56, 54, 0.735);
   border-radius: 10px;
   padding: 45px;
   text-align: center;
