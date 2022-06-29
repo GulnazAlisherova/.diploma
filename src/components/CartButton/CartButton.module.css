@@ -1,0 +1,16 @@
+ .CartButton {
+  width: 120px;
+  height: 30px;
+  background-color: rgb(79, 92, 117);
+  color: white;
+  font-size: 1rem;
+  font-weight: 300;
+  border-radius: 15px;
+  margin-left: 10px;
+  cursor: pointer;
+}
+.CartButton:hover{
+  color: rgb(79, 92, 117);
+  background-color: rgb(209, 209, 209);
+  font-weight: 600;
+} 
