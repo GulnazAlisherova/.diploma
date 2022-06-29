@@ -6,3 +6,9 @@
   border-radius: 8px;
   box-shadow: 0 7px 25px -10px rgba(0, 0, 0, 0.33);
 }
+
+@media (max-width: 440px) {
+  .CartDisplay img {
+    width: 100%;
+  }
+}
