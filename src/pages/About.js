@@ -25,10 +25,10 @@ function About(){
     </div>
     <div className="scenes">
       <h2>Behind the scenes:</h2>
-      <image src={scene1} alt="behind the scenes image"/> 
-      <image src={scene2} alt="behind the scenes image"/> 
-      <image src={scene3} alt="behind the scenes image"/> 
-      <image src={scene4} alt="behind the scenes image"/> 
+      <img src={scene1} alt="behind the scenes image"/> 
+      <img src={scene2} alt="behind the scenes image"/> 
+      <img src={scene3} alt="behind the scenes image"/> 
+      <img src={scene4} alt="behind the scenes image"/> 
     </div>
     </>
   );
