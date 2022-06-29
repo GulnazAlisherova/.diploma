@@ -25,7 +25,7 @@
 }
 @media (max-width: 620px) {
   .Nav {
-    flex-direction: column;
+    flex-direction: column; 
     margin: 1rem 0;
   }
 } 

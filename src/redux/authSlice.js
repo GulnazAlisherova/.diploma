@@ -22,7 +22,7 @@ export const start = createAsyncThunk('auth/start', (data, thunkAPI) => {
 
 const authSlice = createSlice({
   name: "auth",
-  initialState: {
+  initialState: JSON.parse(localStorage.getItem('auth') ?? 'null') ?? {
     localId: null,
     idToken: null,
     error: null,
@@ -49,5 +49,5 @@ const authSlice = createSlice({
     }
   }
 });
-  
+
 export default authSlice.reducer;
