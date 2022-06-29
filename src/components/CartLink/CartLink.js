@@ -1,3 +1,4 @@
+import classes from "./CartLink.module.css"
 import { useSelector } from "react-redux";
 import { NavLink } from "react-router-dom";
 
@@ -7,6 +8,6 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"></i> {number} </NavLink>
+    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"  id={classes.icons2}></i> {number} </NavLink>
   );
 }
