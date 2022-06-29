@@ -13,7 +13,6 @@
   min-height: 380px;
   object-fit: cover;
   object-position: center;
-  
 
   margin: 2rem 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -33,11 +32,30 @@
   background-color: #686161be;
   font-size: 1.2rem;
 }
-@media (max-width: 500px) {
+@media (max-width: 700px) {
   .Header section {
-    font-size: 20px;
-    max-width: 100%;
-    height: auto;
+    position: absolute;
+
+    top: 15%;
+    left: 7%;
+
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    max-width: 80%;
+  }
+}
+@media (max-width: 620px) {
+  .Header section {
+    position: absolute;
+
+    top: 15%;
+    left: 7%;
+
+    color: white;
+    padding: 15px;
+    margin: 10px;
+    max-width: 80%;
   }
 }
 .Header h1 {

@@ -11,10 +11,8 @@ function Cart() {
         image={image}>
         Please review items in your cart.
       </Header>
-
       <CartDisplay actions />
       <div className="checkout">
-
         <Link to="/checkout">Checkout</Link>
       </div>
     </>
