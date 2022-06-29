@@ -12,4 +12,5 @@ export default function SignOut() {
   }, [dispatch, navigate]);
 
   return 'asd';
+
 }
