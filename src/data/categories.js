@@ -7,25 +7,25 @@ const categories = [
     categoryId: "cups",
     title: "Mugs",
     image: cupImage,
-    desciption: "A coffee bean is a seed of the Coffea plant and the source for coffee. It is the pip inside the red or purple fruit often referred to as a cherry."
+    desciption: "Ceramic artifacts have an important role in archaeology for understanding the culture, technology, and behavior of peoples of the past. "
   },
   {
     categoryId: "vases",
     title: "Vases",
     image: vaseImage,
-    desciption: "Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to China, India and other East Asian countries."
+    desciption: "The traditional analysis involves sorting ceramic artifacts, sherds, and larger fragments into specific types based on style, composition, manufacturing, and morphology. "
   },
   {
     categoryId: "plates",
     title: "Plates",
     image: platesImage,
-    desciption: "Tea is an aromatic beverage prepared by pouring hot or boiling water over cured or fresh leaves of Camellia sinensis, an evergreen shrub native to China, India and other East Asian countries."
+    desciption: " This mechanism substantially increases the fracture toughness of such ceramics. Ceramic disc brakes are an example of using a ceramic matrix composite material manufactured with a specific process."
   },
   {
     categoryId: "accessories",
     title: "Accessories",
     image: accessoriesImage,
-    desciption: "The best coffee accessories for hot and iced coffee drinks include burr grinders, water kettles, frothers, scales, and thermometers."
+    desciption: "Pyroelectricity is also a necessary consequence of ferroelectricity. This can be used to store information in ferroelectric capacitors, elements of ferroelectric RAM.."
   },
   
 ];
