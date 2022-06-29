@@ -9,9 +9,9 @@ import { useEffect } from "react";
 function Checkout() {
   const dispatch = useDispatch();
   const navigate = useNavigate();
-  const { items, localId } = useSelector(store => ({
+  const { items, localId } = useSelector((store) => ({
     items: store.cart.items,
-    localId: store.auth.localId
+    localId: store.auth.localId,
   }));
 
   useEffect(() => {
@@ -43,25 +43,28 @@ function Checkout() {
       <CartDisplay />
 
       <form onSubmit={onCheckout}>
-        <label>
-          First name:
-          <input type="text" name="firstName" required />
+        <div className="checkout">
+        <label><br/>
+         <h3> First name:</h3>
+          <input placeholder="Type..."  type="text" name="firstName" required />
         </label>
-        <label>
-          Last name:
-          <input type="text" name="lastName" required />
+        <label><br/>
+<h3> Last name:</h3>        
+  <input type="text"  placeholder="Type..." name="lastName" required />
         </label>
-        <label>
-          Address:
-          <input type="text" name="address" required />
+        <label><br/>
+          <h3>Address:</h3>
+          <input placeholder="Type..."  type="text" name="address" required />
         </label>
-        <label>
-          Phone:
-          <input type="text" name="phone" required />
-        </label>
-
+        <label><br/>
+          <h3>Phone:</h3>
+          <input placeholder="Type..." type="text" name="phone" required />
+        </label><br/>
+        
         <button>Complete the order</button>
+        </div>
       </form>
+
     </>
   );
 }
