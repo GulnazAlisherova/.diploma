@@ -3,17 +3,6 @@ import contactImage from "../assets/contact.png";
 function Contacts() {
   return (
     <>
-      <div className="card4">
-        <div className="line">
-          <h3>Get in touch</h3>
-          <p>gulnaz@gmail.com</p>
-          +7 (903) 508 16 01
-          <br />
-          +7 (495) 508 16 01
-        </div>
-        <img src={contactImage} alt="portlandlogo" />
-      </div>
-
       <div className="container2">
         <form id="contact" action="">
           <h3>Quick Contact</h3>
@@ -35,6 +24,19 @@ function Contacts() {
           </fieldset>
         </form>
       </div>
+      
+      <div className="card4">
+        <div className="line">
+          <h3>Get in touch</h3>
+          <p>gulnaz@gmail.com</p>
+          +7 (903) 508 16 01
+          <br />
+          +7 (495) 508 16 01
+        </div>
+        <img src={contactImage} alt="portlandlogo" />
+      </div>
+
+
 
     </>
   );
