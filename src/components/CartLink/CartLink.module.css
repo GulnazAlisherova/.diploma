@@ -1,11 +1,12 @@
 #icons2 {
   color: rgb(60, 60, 60);
   text-decoration: none;
-font-size: 1.5rem;
+  font-size: 1.5rem;
 }
 #icons2:hover {
   color: black;
 }
+
 .numbers {
   position: absolute;
   text-decoration: none;
@@ -13,10 +14,9 @@ font-size: 1.5rem;
   right: 10rem;
   color: aliceblue;
   font-size: 20px;
-  font-family: 'Courier New', Courier, monospace;
+  font-family: "Courier New", Courier, monospace;
   width: 15px;
   height: 15px;
   padding: 2px;
   border-radius: 10px;
 }
-
