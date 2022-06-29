@@ -1,5 +1,9 @@
 import Header from "../components/Header/Header";
-import headerImage from "../assets/about.webp";
+import headerImage from "../assets/pic.jpg";
+import scene1 from "../assets/scene.png";
+import scene2 from "../assets/scene2.png";
+import scene3 from "../assets/scene3.png";
+import scene4 from "../assets/scene4.png";
 
 function About(){
   return(
@@ -18,6 +22,13 @@ function About(){
           </iframe> 
       <img src="https://images.pexels.com/photos/9736295/pexels-photo-9736295.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="woman kneading clay"/>
      </div>
+    </div>
+    <div className="scenes">
+      <h2>Behind the scenes:</h2>
+      <img src={scene1} alt="behind the scenes image"/> 
+      <img src={scene2} alt="behind the scenes image"/> 
+      <img src={scene3} alt="behind the scenes image"/> 
+      <img src={scene4} alt="behind the scenes image"/> 
     </div>
     </>
   );
