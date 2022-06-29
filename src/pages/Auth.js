@@ -21,7 +21,10 @@ export default function Auth() {
   if (localId !== null) {
     navigate('/');
   }
-
+  console.log(localId)
+  if (localId !== null) {
+   navigate('/');
+ }
   let errorOutput = null;
   if (error) {
     errorOutput = <strong style={{ color: "red" }}>{error}</strong>
