@@ -3,7 +3,7 @@ import image from "../assets/home.png";
 import CartDisplay from "../components/CartDisplay/CartDisplay";
 import { Link } from "react-router-dom";
 
-function Cart() { 
+function Cart() {
   return (
     <>
       <Header
@@ -13,8 +13,10 @@ function Cart() {
       </Header>
 
       <CartDisplay actions />
+      <div className="checkout">
 
-      <Link to="/checkout">Checkout</Link>
+        <Link to="/checkout">Checkout</Link>
+      </div>
     </>
   );
 }
