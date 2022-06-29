@@ -9,10 +9,10 @@ export default function CartLink() {
 
   return (
     <div className={classes.hero}>
-      <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"  id={classes.icons2}>
-      <span className={classes.numbers}>{number}</span>
-    </i>
-     </NavLink>
+      <NavLink to="/cart"><i class="fa-solid fa-cart-shopping" id={classes.icons2}>
+        <span className={classes.numbers}>{number}</span>
+      </i>
+      </NavLink>
     </div>
   );
 }
