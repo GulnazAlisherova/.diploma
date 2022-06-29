@@ -9,7 +9,7 @@ function Categories() {
       <Header
         title="Find something for yourself!"
         image={headerImage}>
-        The fruits; cherries or berries, most commonly contain two stones with their flat sides together. A small percentage of cherries contain a single seed, instead of the usual two. This is called a "peaberry".
+        Ceramic artifacts have an important role in archaeology for understanding the culture, technology, and behavior of peoples of the past. 
       </Header>
 
       <CategoryList categories={getCategories()} />
