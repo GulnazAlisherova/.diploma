@@ -13,6 +13,7 @@
   min-height: 380px;
   object-fit: cover;
   object-position: center;
+  
 
   margin: 2rem 0;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
@@ -34,13 +35,9 @@
 }
 @media (max-width: 500px) {
   .Header section {
-    width: 300px;
-    text-align: center;
-    font-size: 17px;
-    flex-direction: column;
-    width: 100%;
-    height: 100%;
-    width: 100%;
+    font-size: 20px;
+    max-width: 100%;
+    height: auto;
   }
 }
 .Header h1 {
@@ -174,12 +171,13 @@ fieldset {
 }
 #contact button {
   cursor: pointer;
-  width: 20%;
+  width: 30%;
   border: none;
   background: black;
   color: #fff;
   margin: 0 0 5px;
   padding: 10px;
+  border-radius: 0.5rem;
   font-size: 15px;
 }
 

@@ -8,6 +8,8 @@ export default function CartLink() {
   });
 
   return (
-    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"  id={classes.icons2}></i> {number} </NavLink>
+    <NavLink to="/cart"><i class="fa-solid fa-cart-shopping"  id={classes.icons2}></i>
+     <div className={classes.numbers}>{number}</div> 
+     </NavLink>
   );
 }

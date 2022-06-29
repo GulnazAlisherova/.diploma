@@ -7,11 +7,15 @@
 }
 
 .ProductItemImage img {
+  transition: all 0.2s linear;
   width: 100%;
   object-fit: cover;
   width: 300px;
   height: 300px;
   border-radius: 2%;
+}
+.ProductItemImage img:hover {
+  transform: scale(1.1);  
 }
 .ProductItem {
   position: relative;
@@ -58,10 +62,7 @@
 }
 
 .ProductItem a:hover  {
-  transform: translate3d(0, 0, 0);
-  transition-timing-function: cubic-bezier(0.8, 0, 0.1, 1);
-  transition-duration: 0.4s;
-  transition-delay: 0s;
+transition: all 0.4s ease-in-out;
 }
 .ProductItem .price {
   position: absolute;
