@@ -3,7 +3,8 @@ import classes from "./ProductItem.module.css";
 function ProductItem({ product }) {
   return (
     <div className={classes.ProductItem}>
-      <Link to={"/products/" + product.productId}>
+     <div className={classes.card5}>
+     <Link to={"/products/" + product.productId}>
         <div className={classes.price}>${product.price}</div>
         <div className={classes.ProductItemImage}>
           <img src={product.image} alt={product.title} />
@@ -12,6 +13,7 @@ function ProductItem({ product }) {
           </div>
         </div>
       </Link>
+    </div>
     </div>
   );
 }
