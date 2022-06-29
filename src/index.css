@@ -46,24 +46,4 @@ code {
   margin: 5px;
   background-color: rgb(227, 213, 188);
   border: none;
-}
-
-/* .circle{
-  position: absolute;
-  top: 20%;
-  left: 50%;
-  width: 130px;
-  height: 130px;
-  border-radius: 50%;
-  border: 10px solid black;
-  border-top: 10px solid white;
-  animation: animate 2s infinite linear;
-}
-@keyframes animate {
-  0%{
-    transform: translate(-20%, 50%) rotate(0deg);
-  }
-  100%{
-    transform: translate(-20%, 50%) rotate(360deg);
-  }
-} */
+} 
