@@ -1,6 +1,5 @@
 import { useDispatch } from "react-redux";
 import { add } from "../../redux/cartSlice";
-import classes from "./CartButton.module.css";
 
 export default function CartButton({ productId }) {
   const dispatch = useDispatch();
@@ -10,6 +9,6 @@ export default function CartButton({ productId }) {
   }
 
   return (
-    <button className={classes.CartButton} onClick={onAddToCart}>Add to card</button>
+    <button onClick={onAddToCart}>Add to card</button>
   );
 }
