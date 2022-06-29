@@ -25,7 +25,7 @@ function Contacts() {
         </form>
       </div>
       
-      <div className="card4">
+      {/* <div className="card4">
         <div className="line">
           <h3>Get in touch</h3>
           <p>gulnaz@gmail.com</p>
@@ -34,9 +34,7 @@ function Contacts() {
           +7 (495) 508 16 01
         </div>
         <img src={contactImage} alt="portlandlogo" />
-      </div>
-
-
+      </div> */}
 
     </>
   );
