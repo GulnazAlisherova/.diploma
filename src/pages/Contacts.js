@@ -13,7 +13,7 @@ function Contacts() {
         </div>
         <img src={contactImage} alt="portlandlogo" />
       </div>
-      
+
       <div className="container2">
         <form id="contact" action="">
           <h3>Quick Contact</h3>
