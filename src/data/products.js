@@ -12,31 +12,7 @@ import acces2Image from "../assets/coaster.jpg";
 import acces3Image from "../assets/candle.jpg";
 
 const products = [
-  {
-    image: cup1Image,
-    productId: "coffe-mug",
-    categoryId: "cups",
-    title: "Coffee Mug",
-    description: `Not only does the brew matter when it comes to coffee, but your mug choice matters too. Your mug choice can affect the taste of your drink, so it’s very important to choose carefully. Ceramic and stoneware coffee mugs often go head to head because while they have a lot in common, there are some key differences.  `,
-    price: 10,
-  },
-  {
-    image: cup2Image,
-    productId: "wavy-mug",
-    categoryId: "cups",
-    title: "Wavy Mug",
-    description: `Ceramic is a material that is mechanically strong and can be given the desired shape easily. Mugs and other products made with ceramics have a long life as compared to mugs made of glass. Also ceramic can be given any shape easily that makes possible to make different design mugs`,
-    price: 15,
-  },
-  {
-    image: cup3Image,
-    productId: "kitty-coffe-mugs",
-    categoryId: "cups",
-    title: "Kitty coffe mugs",
-    description: `
-    They're common among coffee and tea drinkers. They're good to use for both cold and hot beverages and are microwave-safe! Ceramic mugs are the most neutral in terms of flavor. They do not hold on to flavors from other drinks.`,
-    price: 44,
-  },
+ 
   {
     image: vase1Image,
     productId: "dried-flower-vase",
@@ -61,6 +37,31 @@ const products = [
     title: "Vintage ceramic vase",
     description: `Ceramic vase Active glaze ceramics are naturally flexible and stable in production. As an industry leader, don't hesitate to contact us for more high-quality products. transport safety.`,
     price: 70,
+  },
+  {
+    image: cup1Image,
+    productId: "coffe-mug",
+    categoryId: "cups",
+    title: "Coffee Mug",
+    description: `Not only does the brew matter when it comes to coffee, but your mug choice matters too. Your mug choice can affect the taste of your drink, so it’s very important to choose carefully. Ceramic and stoneware coffee mugs often go head to head because while they have a lot in common, there are some key differences.  `,
+    price: 10,
+  },
+  {
+    image: cup2Image,
+    productId: "wavy-mug",
+    categoryId: "cups",
+    title: "Wavy Mug",
+    description: `Ceramic is a material that is mechanically strong and can be given the desired shape easily. Mugs and other products made with ceramics have a long life as compared to mugs made of glass. Also ceramic can be given any shape easily that makes possible to make different design mugs`,
+    price: 15,
+  },
+  {
+    image: cup3Image,
+    productId: "kitty-coffe-mugs",
+    categoryId: "cups",
+    title: "Kitty coffe mugs",
+    description: `
+    They're common among coffee and tea drinkers. They're good to use for both cold and hot beverages and are microwave-safe! Ceramic mugs are the most neutral in terms of flavor. They do not hold on to flavors from other drinks.`,
+    price: 44,
   },
   {
     image: plate1Image,
