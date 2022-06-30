@@ -213,13 +213,6 @@ fieldset {
   border-radius: 10px;
   background-color: lightgray;
 }
-.checkout:hover{
-  background-color: rgb(103, 103, 103);
-  color: white;
-}
-.checkout a:hover{
-  color: white;
-}
 .checkout a{
   font-size: 1.5rem;
   text-decoration: none;
