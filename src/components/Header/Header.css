@@ -82,7 +82,7 @@
 }
 .about-container {
   display: flex;
-  background-color: #827b70;
+  background-color: #989186;
   flex-direction: row;
   align-items: center;
   width: 100%;
@@ -97,6 +97,7 @@
     flex-wrap: wrap;
     align-items: center;
     margin: auto;
+    max-width: 500px;
   }
 }
 .about p {
