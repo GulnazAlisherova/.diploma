@@ -14,14 +14,16 @@ function Product() {
   return (
     <div className={classes.Product}>
       <div className={classes.Product2}>
+      <img className={classes.image} src={product.image} alt={product.title} />
         <h2 className={classes.title}>{product.title}</h2>
-        <p className={classes.text}>{product.description}</p>
         <button className={classes.ProductButton}>
           {product.price}$
         </button>
+        <p className={classes.text}>{product.description}</p>
+        
         <CartButton productId={params.productId} />
       </div>
-      <img className={classes.image} src={product.image} alt={product.title} />
+     
       
     </div>
   );
