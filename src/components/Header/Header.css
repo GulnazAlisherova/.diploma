@@ -234,3 +234,14 @@ fieldset {
 .checkout button:hover{
   cursor: pointer;
 }
+
+
+@media (max-width: 600px) {
+  .checkout button {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto; 
+    width: 400px;
+
+  }
+}
