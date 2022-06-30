@@ -4,17 +4,18 @@ import vaseImage from "../assets/vase.jpg";
 import platesImage from "../assets/plates.jpg"
 const categories = [
   {
-    categoryId: "cups",
-    title: "Mugs",
-    image: cupImage,
-    desciption: "Ceramic artifacts have an important role in archaeology for understanding the culture, technology, and behavior of peoples of the past. "
-  },
-  {
     categoryId: "vases",
     title: "Vases",
     image: vaseImage,
     desciption: "The traditional analysis involves sorting ceramic artifacts, sherds, and larger fragments into specific types based on style, composition, manufacturing, and morphology. "
   },
+  {
+    categoryId: "cups",
+    title: "Mugs",
+    image: cupImage,
+    desciption: "Ceramic artifacts have an important role in archaeology for understanding the culture, technology, and behavior of peoples of the past. "
+  },
+  
   {
     categoryId: "plates",
     title: "Plates",
