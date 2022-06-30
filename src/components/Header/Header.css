@@ -207,11 +207,24 @@ fieldset {
   padding: 15px;
   margin: 15px;
   text-decoration: none;
-  align-items: center;
+  text-align: center;
   font-size: 1rem;
-  margin: 0 auto;
+  margin: 2rem auto;
   border-radius: 10px;
   background-color: lightgray;
+}
+.checkout:hover{
+  background-color: rgb(103, 103, 103);
+  color: white;
+}
+.checkout a:hover{
+  color: white;
+}
+.checkout a{
+  font-size: 1.5rem;
+  text-decoration: none;
+  color: black;
+  text-align: center;
 }
 .checkout input{
   padding: 10px;
