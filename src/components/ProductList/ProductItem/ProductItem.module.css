@@ -28,9 +28,10 @@
   width: 100%;
   margin: 0 auto;
   padding: 0 60px;
-  color: black;
-  background-color: rgba(96, 96, 154, 0.609);
+  color: white;
+  background-color: rgba(0, 0, 0, 0.609);
 
+  border: 1px solid black;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
@@ -60,9 +61,11 @@
 
 .ProductItem a:hover {
   transition: all 0.4s ease-in-out;
+  text-decoration: underline;
 }
 .ProductItem .price {
-  color: black;
-  font-weight: bold;
+  top: 10px;
+  color: white;
+  font-weight:600;
   font-size: 1.3rem;
 }
