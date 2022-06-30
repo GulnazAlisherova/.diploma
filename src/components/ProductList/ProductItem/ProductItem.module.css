@@ -64,8 +64,15 @@
   text-decoration: underline;
 }
 .ProductItem .price {
-  top: 10px;
+  position: absolute;
+  top: -1.5rem;
+  right: 0;
+  
   color: white;
-  font-weight:600;
+  font-weight: bold;
   font-size: 1.3rem;
+  padding: 1rem;
+  text-align: center;
+  border-radius: 50%;
+  box-shadow: 0 0 10px rgba(0, 0, 0, .3);
 }

@@ -1,8 +1,7 @@
 import { useDispatch, useSelector } from "react-redux";
 import { useNavigate } from "react-router-dom";
 import { start } from "../redux/authSlice";
-
-export default function Auth() {
+export default function AuthDisplay() {
   const dispatch = useDispatch();
   const { error, localId } = useSelector(store => store.auth);
   const navigate = useNavigate();
@@ -21,10 +20,7 @@ export default function Auth() {
   if (localId !== null) {
     navigate('/');
   }
-  console.log(localId)
-  if (localId !== null) {
-   navigate('/');
- }
+
   let errorOutput = null;
   if (error) {
     errorOutput = <strong style={{ color: "red" }}>{error}</strong>
