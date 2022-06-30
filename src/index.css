@@ -49,4 +49,10 @@ code {
   margin: 5px;
   background-color: rgb(227, 213, 188);
   border: none;
-} 
+}
+
+@media (max-width: 600px) {
+  .card3 {
+    width: 400px;
+  }
+}
