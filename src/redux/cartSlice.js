@@ -8,11 +8,9 @@ export const checkout = createAsyncThunk(
       "https://diploma2-bafa4-default-rtdb.firebaseio.com/orders.json",
       order
     );
-
     return response.data;
-  }
+  } 
 );
-
 const cartSlice = createSlice({
   name: "cart",
   initialState: {
