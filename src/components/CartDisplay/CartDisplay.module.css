@@ -17,7 +17,7 @@
 }
 
 @media (max-width: 640px) {
-  .CartDisplay span {
+  .CartDisplay  {
     flex-wrap: wrap;
     align-items: center;
     margin: 10px auto; 
