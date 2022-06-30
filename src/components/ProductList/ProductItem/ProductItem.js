@@ -8,9 +8,10 @@ function ProductItem({ product }) {
           <Link to={"/products/" + product.productId}>
             <div className={classes.ProductItemImage}>
               <img src={product.image} alt={product.title} />
+              <div className={classes.price}>${product.price}</div>
               <div className={classes.ProductItemText}>
                 <h3>{product.title}</h3>
-                <div className={classes.price}>${product.price}</div>
+               
               </div>
             </div>
           </Link>
