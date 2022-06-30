@@ -42,7 +42,7 @@ export default function AuthDisplay() {
           </label>
           <br />
           <button>Sign in</button>
-          <button>Sign me up</button>
+          <button>Sign up</button>
         </form>
       </div>
     </div>
