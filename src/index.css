@@ -20,12 +20,13 @@ code {
 
 
 .card2 {
-  background-color: rgba(103, 87, 110, 0.763);
+  background-color: rgb(203, 202, 202);
   width: 400px;
-  box-shadow: 10px 30px 40px 0 rgba(56, 56, 54, 0.735);
+  box-shadow: 10px 10px 20px 0 rgba(56, 56, 54, 0.735);
   border-radius: 10px;
   padding: 45px;
   text-align: center;
+  border: 2px solid black;
   margin: 25px auto;
 }
 .card3 button{
@@ -47,12 +48,14 @@ code {
 .card3 input{
   padding: 6px;
   margin: 5px;
-  background-color: rgb(227, 213, 188);
-  border: none;
 }
 
 @media (max-width: 600px) {
-  .card3 {
-    width: 400px;
+  .card2 {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto; 
+    width: 300px;
+
   }
 }
