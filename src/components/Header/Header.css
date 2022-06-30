@@ -38,7 +38,6 @@
 
     top: 15%;
     left: 7%;
-
     color: white;
     padding: 15px;
     margin: 10px;
@@ -49,8 +48,7 @@
   .Header section {
     position: absolute;
 
-    top: 15%;
-    left: 7%;
+    top: 25%;
 
     color: white;
     padding: 15px;
