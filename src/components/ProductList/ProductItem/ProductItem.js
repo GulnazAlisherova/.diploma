@@ -6,7 +6,6 @@ function ProductItem({ product }) {
       <div className={classes.effectToRight}>
         <div className={classes.card5}>
           <Link to={"/products/" + product.productId}>
-
             <div className={classes.ProductItemImage}>
               <img src={product.image} alt={product.title} />
               <div className={classes.ProductItemText}>
