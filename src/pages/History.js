@@ -9,7 +9,7 @@ export default function History() {
   const localId = useSelector(store => store.auth.localId);
 
   useEffect(() => {
-    axios.get('https://diploma-49107-default-rtdb.firebaseio.com/orders.json?orderBy="localId"&equalTo="' + localId + '"')
+    axios.get('https://diploma2-bafa4-default-rtdb.firebaseio.com/orders.json?orderBy="localId"&equalTo="' + localId + '"')
       .then(response => setOrders(response.data));
   }, [localId]);
 
