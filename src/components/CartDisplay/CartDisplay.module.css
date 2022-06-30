@@ -16,8 +16,12 @@
   text-decoration: none;
 }
 
-@media (max-width: 440px) {
-  .CartDisplay img {
-    width: 100%;
+@media (max-width: 640px) {
+  .CartDisplay span {
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 10px auto; 
+    width: 300px;
+
   }
 }
