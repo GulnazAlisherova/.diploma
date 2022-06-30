@@ -16,8 +16,7 @@ const cartSlice = createSlice({
     add: (store, action) => {
       if (store.items[action.payload]) {
         store.items[action.payload]++;
-      }
-      else {
+      } else {
         store.items[action.payload] = 1;
       }
     },
@@ -30,18 +29,17 @@ const cartSlice = createSlice({
     decrement: (store, action) => {
       if (store.items[action.payload] > 1) {
         store.items[action.payload]--;
-      }
-      else {
+      } else {
         delete store.items[action.payload];
       }
-    }
+    },
   },
   extraReducers: {
     [checkout.fulfilled]: (state, action) => {
       console.log(action);
       state.items = {};
     }
-  }
+  },
 });
 
 export const { add, remove, increment, decrement } = cartSlice.actions;
