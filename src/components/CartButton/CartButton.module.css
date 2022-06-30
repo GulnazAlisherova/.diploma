@@ -1,7 +1,5 @@
 .CartButton {
-  width: 120px;
-  height: 30px;
-
+  padding: 2rem;
   background-color: black;
   color: white;
 
@@ -15,6 +13,5 @@
   padding: 15px;
 }
 .CartButton:hover {
-  color: white;
   background-color: #383838;
 }
