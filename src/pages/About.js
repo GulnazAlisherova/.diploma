@@ -23,7 +23,7 @@ function About(){
       <img src="https://images.pexels.com/photos/9736295/pexels-photo-9736295.jpeg?auto=compress&cs=tinysrgb&dpr=2&w=500" alt="woman kneading clay"/>
      </div>
     </div>
-    <div className="scenes">
+    <div className="scenes">.
       <h2>Behind the scenes:</h2>
       <img src={scene1} alt="behind the scenes image"/> 
       <img src={scene2} alt="behind the scenes image"/> 

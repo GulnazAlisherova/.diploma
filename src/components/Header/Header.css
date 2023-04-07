@@ -49,7 +49,7 @@
     position: absolute;
 
     top: 25%;
-    
+
     color: white;
     padding: 15px;
     margin: 10px;
@@ -202,7 +202,7 @@ fieldset {
   padding-left: 40px;
   text-align: center;
 }
-.checkout{
+.checkout {
   border: 1px solid black;
   width: 400px;
   padding: 15px;
@@ -214,21 +214,21 @@ fieldset {
   border-radius: 10px;
   background-color: rgb(209, 202, 202);
 }
-.checkout a{
+.checkout a {
   font-size: 1.5rem;
   text-decoration: none;
   color: black;
   text-align: center;
 }
-.checkout input{
+.checkout input {
   padding: 10px;
   margin: 2px;
- align-items: center;
- text-align: center;
- border-radius: .5rem;
- border: 1px solid black;
+  align-items: center;
+  text-align: center;
+  border-radius: 0.5rem;
+  border: 1px solid black;
 }
-.checkout button{
+.checkout button {
   padding: 10px;
   border-radius: 6px;
   border: 1px solid black;
@@ -238,17 +238,15 @@ fieldset {
   font-size: 1rem;
   align-items: center;
 }
-.checkout button:hover{
+.checkout button:hover {
   cursor: pointer;
 }
-
 
 @media (max-width: 600px) {
   .checkout button {
     flex-wrap: wrap;
     align-items: center;
-    margin: 10px auto; 
+    margin: 10px auto;
     width: 400px;
-
   }
 }

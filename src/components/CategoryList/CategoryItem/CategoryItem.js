@@ -8,7 +8,7 @@ function CategoryItem({ category }) {
       <Link to={"/categories/" + category.categoryId}>
         <div className={classes.CategoryItemImage}>
           <img src={category.image} alt={category.title} />
-          <div className={classes.CategoryItemText}>
+          <div className={classes.CategoryItemText}> 
             <h3>{category.title}</h3>
           </div>
         </div>
