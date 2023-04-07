@@ -2,7 +2,7 @@ body {
   padding: 0;
   margin: 0;
   background-color: rgb(234, 226, 226);
-  font-family: Garamond,Baskerville,Caslon,serif;
+  font-family: Garamond, Baskerville, Caslon, serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
@@ -11,13 +11,12 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
     monospace;
 }
+
 .container {
   max-width: 85%;
   margin: 0 auto;
   padding: 0 1rem;
 }
-
-
 
 .card2 {
   background-color: rgb(203, 202, 202);
@@ -29,7 +28,8 @@ code {
   border: 2px solid black;
   margin: 25px auto;
 }
-.card3 button{
+
+.card3 button {
   padding: 6px 15px;
   margin: 5px;
   background-color: rgb(79, 92, 117);
@@ -40,12 +40,14 @@ code {
   margin-left: 10px;
   border: 1.5px solid black;
 }
-.card3 button:hover{
+
+.card3 button:hover {
   cursor: pointer;
   color: rgb(79, 92, 117);
   background-color: rgb(209, 209, 209);
 }
-.card3 input{
+
+.card3 input {
   padding: 6px;
   margin: 5px;
 }
@@ -54,8 +56,7 @@ code {
   .card2 {
     flex-wrap: wrap;
     align-items: center;
-    margin: 10px auto; 
+    margin: 10px auto;
     width: 300px;
-
   }
 }
