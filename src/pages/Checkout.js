@@ -44,24 +44,24 @@ function Checkout() {
 
       <form onSubmit={onCheckout}>
         <div className="checkout">
-        <label><br/>
-         <h3> First name:</h3>
-          <input placeholder="Type..."  type="text" name="firstName" required />
-        </label>
-        <label><br/>
-<h3> Last name:</h3>        
-  <input type="text"  placeholder="Type..." name="lastName" required />
-        </label>
-        <label><br/>
-          <h3>Address:</h3>
-          <input placeholder="Type..."  type="text" name="address" required />
-        </label>
-        <label><br/>
-          <h3>Phone:</h3>
-          <input placeholder="Type..." type="text" name="phone" required />
-        </label><br/>
-        
-        <button>Complete the order</button>
+          <label><br />
+            <h3> First name:</h3>
+            <input placeholder="Type..." type="text" name="firstName" required />
+          </label>
+          <label><br />
+            <h3> Last name:</h3>
+            <input type="text" placeholder="Type..." name="lastName" required />
+          </label>
+          <label><br />
+            <h3>Address:</h3>
+            <input placeholder="Type..." type="text" name="address" required />
+          </label>
+          <label><br />
+            <h3>Phone:</h3>
+            <input placeholder="Type..." type="text" name="phone" required />
+          </label><br />
+
+          <button>Complete the order</button>
         </div>
       </form>
 
