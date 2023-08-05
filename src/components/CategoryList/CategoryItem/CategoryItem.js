@@ -5,15 +5,15 @@ function CategoryItem({ category }) {
   return (
     <div className={classes.container}>
       <div className={classes.CategoryItem}>
-      <Link to={"/categories/" + category.categoryId}>
-        <div className={classes.CategoryItemImage}>
-          <img src={category.image} alt={category.title} />
-          <div className={classes.CategoryItemText}> 
-            <h3>{category.title}</h3>
+        <Link to={"/categories/" + category.categoryId}>
+          <div className={classes.CategoryItemImage}>
+            <img src={category.image} alt={category.title} />
+            <div className={classes.CategoryItemText}>
+              <h3>{category.title}</h3>
+            </div>
           </div>
-        </div>
-      </Link>
-    </div>
+        </Link>
+      </div>
     </div>
   );
 }
